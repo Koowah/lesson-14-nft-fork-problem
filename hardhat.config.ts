@@ -37,11 +37,11 @@ const config: HardhatUserConfig = {
         hardhat: {
             chainId: 31337,
             allowUnlimitedContractSize: true,
-            // // If you want to do some forking, uncomment this
-            // forking: {
-            //   url: MAINNET_RPC_URL
-            //   blockNumber: 16179108
-            // }
+            // If you want to do some forking, uncomment this
+            forking: {
+                url: GOERLI_RPC_URL,
+                //   blockNumber: 16179108
+            },
         },
         localhost: {
             chainId: 31337,
